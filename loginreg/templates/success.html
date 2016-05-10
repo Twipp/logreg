@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Success!!!</title>
+  </head>
+  <body>
+    <div style="background-color: green;"><p>You are now registered!</p></div>
+    <p>{{session ['newFirstName']}} {{session ['newLastName']}}</p>
+    <p>{{session ['newEmail']}}</p>
+
+    <form action = '/' method = 'GET'>
+      <button type="submit">To Home</button>
+      <!-- <input type = "submit"> -->
+    </form>
+
+  </body>
+</html>
