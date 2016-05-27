@@ -1,0 +1,56 @@
+* {
+  font-family: monaco;
+  /*outline: 1px solid red;*/
+
+}
+
+#wrapper {
+  margin: 25px auto;
+  max-width: 970px
+}
+
+.formContainer {
+
+  padding: 10px;
+  border: 1px green solid;
+  display: inline-block;
+
+}
+
+.labelContainer {
+
+  /*border: 1px green solid;*/
+  display: inline-block;
+  text-align: right;
+
+
+}
+
+.inputContainer {
+  border: 1px red solid;
+  display: inline-block;
+}
+
+.inputField {
+  margin-left: 2px;
+  margin-bottom: 17px;
+  display: block;
+}
+
+.errorContainer {
+
+  /*border: 2px red solid;*/
+  display: inline-block;;
+  vertical-align: top;
+
+}
+
+.goBackButton {
+
+
+}
+
+button {
+  margin-left: 220px;
+  display: block;
+}
